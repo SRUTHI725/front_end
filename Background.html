@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css background</title>
+    <style>
+        body {
+            /* background-color: blue; */
+            /* height: 20px; */
+            /* background-image: url("image-1.jpg"); */
+            background-repeat: repeat-x;
+            background-repeat: repeat-y;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position: left;
+            background-position: right;
+            background-position: bottom;
+            background-position: center;
+            /* background-position: 200px 200px; */
+            /* we can use percentqge and pixels */
+            background-size: contain;
+            background-size: cover;
+            background-attachment: fixed;
+            background-attachment: scroll;
+            background-attachment: fixed;
+        }
+
+        #back-color {
+            height: 300px;
+            width: 200px;
+            border: solid;
+            margin-bottom: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: yellow;
+            /* background-image: linear-gradient(to  bottom, red 10%,yellow); */
+            /* background-image: radial-gradient(red,yellow,blue,green 40%); */
+            background-image: conic-gradient(blue, red, green, white, yellow, aqua);
+        }
+
+        h1 {
+            border: 300px;
+            color: crimson;
+            padding: 10px;
+
+        }
+
+        .heading {
+            border: solid;
+            width: 300px;
+            box-sizing: border-box;
+            padding: 20px;
+
+        }
+
+        ul li:hover {
+            background-color: aqua;
+            list-style-type: none;
+
+        }
+
+        button:hover {
+            background-color: blue;
+            
+        }
+        /* marker applies only for the list items */
+        ::marker{
+            content: '❤️';
+
+        }
+        p::after{
+            content: "thopstech";
+            content: '😘';
+        }
+        p::before{
+            content: 'hello thopstech';
+            content: '😍';
+        }
+        p::selection{
+            color: blue;
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">
+        sruthi
+    </h1>
+    <h1>hello haii</h1>
+    <div>
+        <p>
+            <img src="image-1.jpg" alt="" style="width: 400px,;float: right;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, doloribus! Maxime impedit autem delectus
+            quasi ratione, omnis magni exercitationem adipisci, aut, odit sint deleniti nam sapiente? Quaerat voluptatum
+            porro excepturi nam voluptates, recusandae eos provident repellendus velit deserunt animi error commodi rem
+            deleniti assumenda corporis consectetur, veritatis eum, reiciendis a.
+        </p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, inventore nihil. Ut optio amet neque corrupti
+        iusto sit at, fugiat saepe maiores rem sapiente labore, voluptatum praesentium itaque, laboriosam necessitatibus
+        aut sint non odio? Omnis nisi eveniet ratione quos ducimus ea, vero aliquid laudantium ipsa, recusandae illo ad
+        qui veritatis libero pariatur ex modi numquam ab! Itaque tenetur suscipit magni sint earum fugiat eum! Quis,
+        porro.
+    </div>
+    <div id="back-color">
+
+    </div>
+    <h3> welcome to pseudo class and pseudo elements</h3>
+    <ul>
+        <li>item-1</li>
+        <li>item-2</li>
+        <li>item-3</li>
+        <li>item-4</li>
+    </ul>
+    <button>submit</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aspernatur temporibus rem. Natus aspernatur
+        excepturi alias obcaecati eius cumque soluta.</p>
+</body>
+
+</html>

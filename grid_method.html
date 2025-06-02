@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid_method</title>
+    <style>
+        .container{
+            /* display: grid;
+            background-color: burlywood;
+            padding: 10PX;
+
+            grid-auto-flow: 'A A B'
+            'C D D' 
+            'E E F';} */
+            display: grid;
+            grid-template-areas: 'veera veera B' 
+            'c teja teja'
+            'ram ram F';
+            background-color:aqua;
+        
+            
+            }
+           </style>
+
+</head>
+<body>
+    <div class="container"></div>
+    <div class="items item-1">A</div>
+    <div class="items item-2">B</div>
+    <div class="items item-3">C</div>
+    <div class="items item-4">D</div>
+    <div class="items item-5">E</div>
+    <div class="items item-6">F</div>
+</body>
+</html>

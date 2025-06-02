@@ -1,0 +1,15 @@
+.parent h2{
+    color: lightgreen;
+}
+.parent>h1{
+    color: blue;
+}
+.child>h1,.child>h2 {
+    color: blueviolet;
+}
+.parent+h1{
+    background-color: chocolate;
+}
+.parent~h2{
+    background-color: brown;
+}
